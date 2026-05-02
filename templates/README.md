@@ -1,56 +1,47 @@
-# Go Interview Templates
-
-This directory is a Go-first pattern library for interview preparation.
-
-Use it in this order:
+# Python Pattern Templates
 
 ## Easy
 
-- `arrays/prefix_sum.go`
-- `arrays/two_pointers.go`
-- `arrays/sliding_window.go`
-- `strings/strings.go`
-- `hashmap/hashmap.go`
-- `search/binary_search.go`
-- `stack/monotonic_stack.go`
-- `intervals/intervals.go`
-- `matrix/grid.go`
-- `greedy/greedy.go`
+- `arrays/prefix_sum.py`
+- `arrays/two_pointers.py`
+- `arrays/sliding_window.py`
+- `strings/strings.py`
+- `hashmap/hashmap.py`
+- `search/binary_search.py`
+- `stack/monotonic_stack.py`
+- `intervals/intervals.py`
+- `matrix/grid.py`
+- `greedy/greedy.py`
 
 ## Medium
 
-- `linkedlist/linked_list.go`
-- `linkedlist/linked_list_advanced.go`
-- `tree/tree.go`
-- `tree/bst.go`
-- `graph/graph.go`
-- `heap/heap.go`
-- `backtracking/backtracking.go`
-- `dp/dp.go`
-- `dp/dp_advanced.go`
-- `trie/trie.go`
-- `unionfind/union_find.go`
-- `recursion/recursion.go`
-- `sort/sort_select.go`
+- `linkedlist/linked_list.py`
+- `linkedlist/linked_list_advanced.py`
+- `tree/tree.py`
+- `tree/bst.py`
+- `graph/graph.py`
+- `heap/heap.py`
+- `backtracking/backtracking.py`
+- `dp/dp.py`
+- `dp/dp_advanced.py`
+- `trie/trie.py`
+- `unionfind/union_find.py`
+- `recursion/recursion.py`
+- `sort/sort_select.py`
 
 ## Hard
 
-- `graph/shortest_path.go`
-- `graph/topological_sort.go`
-- `graph/advanced.go`
-- `rangequery/fenwick.go`
-- `rangequery/segment_tree.go`
-- `bit/bit.go`
-- `search/advanced_binary_search.go`
-- `math/math.go`
-- `design/lru.go`
-
-Target usage:
-
-- arrays, strings, hashmap, two pointers, sliding window, BFS/DFS, basic binary search, heap, backtracking, 1D/2D DP.
-- monotonic stack, union-find, trie, topo sort, Dijkstra, Fenwick tree, segment tree, advanced binary search, bit tricks.
+- `graph/shortest_path.py`
+- `graph/topological_sort.py`
+- `graph/advanced.py`
+- `rangequery/fenwick.py`
+- `rangequery/segment_tree.py`
+- `bit/bit.py`
+- `search/advanced_binary_search.py`
+- `math/math.py`
+- `design/lru.py`
 
 Notes:
 
-- Each file is intentionally standalone enough to copy into a LeetCode solution.
-- Replace helper types with the platform's definitions when needed.
+- Each file is standalone enough to paste into a LeetCode solution.
+- Replace helper classes with the platform's definitions when needed.
