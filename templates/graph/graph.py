@@ -38,7 +38,11 @@ def num_islands(grid: list[list[str]]) -> int:
     count = 0
 
     def dfs(row: int, col: int) -> None:
-        if row < 0 or row >= rows or col < 0 or col >= cols or grid[row][col] != "1":
+        if row < 0 \
+            or row >= rows \
+            or col < 0 \
+            or col >= cols \
+            or grid[row][col] != "1":
             return
         grid[row][col] = "0"
         dfs(row + 1, col)

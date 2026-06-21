@@ -12,11 +12,16 @@ Core data structure packages:
 - `python/queue/queue.py`
 - `python/deque/deque.py`
 - `python/heap/heap.py`
+- `python/priorityqueue/priorityqueue.py`
 - `python/hashtable/hashtable.py`
 - `python/hashset/hashset.py`
 - `python/bloomfilter/bloomfilter.py`
 - `python/lru/lru.py`
 - `python/lfu/lfu.py`
+- `python/unionfind/unionfind.py`
+- `python/fenwick/fenwick.py`
+- `python/segmenttree/segmenttree.py`
+- `python/monotonicqueue/monotonicqueue.py`
 - `python/trie/trie.py`
 - `python/graph/graph.py`
 - `python/tree/btree/btree.py`
